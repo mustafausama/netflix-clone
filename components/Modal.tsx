@@ -113,7 +113,7 @@ export default function Modal() {
               <div className="flex flex-col space-y-3 text-sm">
                 <div>
                   <span className="text-[gray]">Genres: </span>
-                  {genres.map((genre) => genre.name).join(", ")}
+                  {genres && genres.map((genre) => genre.name).join(", ")}
                 </div>
                 <div>
                   <span className="text-[gray]">Original Language: </span>

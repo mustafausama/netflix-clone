@@ -51,9 +51,8 @@ export default function Row({ title, movies }: Props) {
           ref={rowRef}
           className="flex scrollbar-hide items-center space-x-0.5 overflow-x-scroll md:space-x-2.5 md:p-2"
         >
-          {movies.map((movie) => (
-            <Thumbnail key={movie.id} movie={movie} />
-          ))}
+          {movies &&
+            movies.map((movie) => <Thumbnail key={movie.id} movie={movie} />)}
         </div>
         <ChevronRightIcon
           className="absolute top-0 bottom-0 z-40 m-auto transition opacity-0 cursor-pointer right-2 h-9 w-9 hover:scale-125 group-hover:opacity-100"
