@@ -8,12 +8,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCOzdOW_7xz8nu0musiBWXhGxV4pusiWdA",
-  authDomain: "ascendant-braid-289221.firebaseapp.com",
-  projectId: "ascendant-braid-289221",
-  storageBucket: "ascendant-braid-289221.appspot.com",
-  messagingSenderId: "334283544930",
-  appId: "1:334283544930:web:c7d01c4e4436c365eaf43b"
+  apiKey: "AIzaSyBMnt1y9Znp7-fnwl0CoW50RztdkZNay-I",
+  authDomain: "netflix-clone-a1745.firebaseapp.com",
+  projectId: "netflix-clone-a1745",
+  storageBucket: "netflix-clone-a1745.appspot.com",
+  messagingSenderId: "766375229904",
+  appId: "1:766375229904:web:92fb4db4c4aa3c9cfb61d5"
 };
 
 // Initialize Firebase
